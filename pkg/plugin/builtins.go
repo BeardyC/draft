@@ -14,7 +14,7 @@ func Builtins() []*Builtin {
 	return []*Builtin{
 		{
 			Name:    "pack-repo",
-			URL:     "https://github.com/draftcreate/draft-pack-repo",
+			URL:     "https://github.com/BeardyC/draft-pack-repo",
 			Version: packRepoVersion,
 		},
 	}
