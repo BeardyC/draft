@@ -8,9 +8,9 @@ import (
 
 	"github.com/Masterminds/vcs"
 
-	"github.com/BeardyC/draft/pkg/draft/draftpath"
-	packrepo "github.com/BeardyC/draft/pkg/draft/pack/repo"
-	"github.com/BeardyC/draft/pkg/plugin/installer"
+	"github.com/Azure/draft/pkg/draft/draftpath"
+	packrepo "github.com/Azure/draft/pkg/draft/pack/repo"
+	"github.com/Azure/draft/pkg/plugin/installer"
 )
 
 var _ installer.Installer = new(VCSInstaller)
@@ -136,7 +136,7 @@ func TestVCSInstallerUpdate(t *testing.T) {
 	defer os.RemoveAll(home.String())
 
 	// Draft can install itself. Pretty neat eh?
-	source := "https://github.com/BeardyC/draft"
+	source := "https://github.com/Azure/draft"
 	i, err := New(source, "0.6.0", home)
 	if err != nil {
 		t.Errorf("unexpected error: %s", err)

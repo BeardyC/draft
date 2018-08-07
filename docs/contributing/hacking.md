@@ -42,11 +42,11 @@ $ GOOS=linux GOARCH=amd64 ./make.bash --no-clean
 ## Fork the Repository
 
 Begin at Github by forking Draft, then clone your fork locally. Since Draft is a Go package, it
-should be located at `$GOPATH/src/github.com/BeardyC/draft`.
+should be located at `$GOPATH/src/github.com/Azure/draft`.
 
 ```shell
-$ mkdir -p $GOPATH/src/github.com/BeardyC
-$ cd $GOPATH/src/github.com/BeardyC
+$ mkdir -p $GOPATH/src/github.com/Azure
+$ cd $GOPATH/src/github.com/Azure
 $ git clone git@github.com:<username>/draft.git
 $ cd draft
 ```
@@ -55,7 +55,7 @@ Add the conventional [upstream][] `git` remote in order to fetch changes from Dr
 branch and to create pull requests:
 
 ```shell
-$ git remote add upstream https://github.com/BeardyC/draft.git
+$ git remote add upstream https://github.com/Azure/draft.git
 ```
 
 ## Build Your Changes

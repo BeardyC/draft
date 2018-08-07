@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/BeardyC/draft/pkg/draft/draftpath"
+	"github.com/Azure/draft/pkg/draft/draftpath"
 )
 
 var _ Installer = new(LocalInstaller)

@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/BeardyC/draft/pkg/draft/manifest"
+	"github.com/Azure/draft/pkg/draft/manifest"
 )
 
 const (

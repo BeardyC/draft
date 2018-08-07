@@ -4,7 +4,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/BeardyC/draft/pkg/draft/manifest"
+	"github.com/Azure/draft/pkg/draft/manifest"
 )
 
 func TestArchiveSrc(t *testing.T) {

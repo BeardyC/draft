@@ -6,8 +6,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/BeardyC/draft/pkg/draft/draftpath"
-	"github.com/BeardyC/draft/pkg/local"
+	"github.com/Azure/draft/pkg/draft/draftpath"
+	"github.com/Azure/draft/pkg/local"
 	"github.com/hpcloud/tail"
 	"github.com/spf13/cobra"
 )

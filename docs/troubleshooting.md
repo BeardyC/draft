@@ -4,7 +4,7 @@ Common issues or questions that users have run into when using Draft are detaile
 
 ### My repository is detected as the wrong language
 
-`draft create` displays languages percentages for the files in the repository. The percentages are calculated based on the bytes of code for each language as reported by [pkg/linguist](https://github.com/BeardyC/draft/tree/master/pkg/linguist), which is a Go port of [github linguist](https://github.com/github/linguist). If `draft create` is reporting a language that you don't expect:
+`draft create` displays languages percentages for the files in the repository. The percentages are calculated based on the bytes of code for each language as reported by [pkg/linguist](https://github.com/Azure/draft/tree/master/pkg/linguist), which is a Go port of [github linguist](https://github.com/github/linguist). If `draft create` is reporting a language that you don't expect:
 
 1. Use `draft create --debug` to see a list of the files that are identified as that language.
 2. If you see files that you didn't write, consider moving the files into one of the [paths for vendored code][vendor.yml], or use the [manual overrides](#overrides) feature to ignore them.

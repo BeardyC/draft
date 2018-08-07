@@ -22,7 +22,7 @@ import (
 	"k8s.io/helm/pkg/kube"
 	"k8s.io/helm/pkg/tiller/environment"
 
-	"github.com/BeardyC/draft/pkg/draft/draftpath"
+	"github.com/Azure/draft/pkg/draft/draftpath"
 )
 
 const (

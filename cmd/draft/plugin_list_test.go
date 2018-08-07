@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/BeardyC/draft/pkg/draft/draftpath"
+	"github.com/Azure/draft/pkg/draft/draftpath"
 )
 
 func TestPluginListCmd(t *testing.T) {

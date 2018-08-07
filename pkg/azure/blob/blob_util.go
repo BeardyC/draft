@@ -4,7 +4,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/BeardyC/azure-storage-blob-go/2016-05-31/azblob"
+	"github.com/Azure/azure-storage-blob-go/2016-05-31/azblob"
 )
 
 // GetAppendBlobURL returns an AppendBlobURL for the specified logFileURL.

@@ -3,9 +3,9 @@ package installer
 import (
 	"path/filepath"
 
-	"github.com/BeardyC/draft/pkg/draft/draftpath"
-	"github.com/BeardyC/draft/pkg/draft/pack/repo"
-	"github.com/BeardyC/draft/pkg/osutil"
+	"github.com/Azure/draft/pkg/draft/draftpath"
+	"github.com/Azure/draft/pkg/draft/pack/repo"
+	"github.com/Azure/draft/pkg/osutil"
 )
 
 // LocalInstaller installs pack repos from the filesystem

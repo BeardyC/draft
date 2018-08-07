@@ -5,7 +5,7 @@ This directory contains the built-in Draft packs which are installed via `draft 
 _If you are interested in creating your own packs_, you can simply create those packs in your local `$(draft home)/packs` directory.
 
 ```
-packs/github.com/BeardyC/draft/packs
+packs/github.com/Azure/draft/packs
   |
   |- PACKNAME
   |     |

@@ -15,8 +15,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/BeardyC/draft/pkg/draft/draftpath"
-	"github.com/BeardyC/draft/pkg/local"
+	"github.com/Azure/draft/pkg/draft/draftpath"
+	"github.com/Azure/draft/pkg/local"
 )
 
 const (

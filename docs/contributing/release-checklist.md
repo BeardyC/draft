@@ -16,7 +16,7 @@ number and Z is the patch release number. This project strictly follows
 [semantic versioning](http://semver.org/) so following this step is critical.
 
 It is important to note that this document assumes that the git remote in your repository that
-corresponds to "https://github.com/BeardyC/draft" is named "upstream". If yours is not (for example, if
+corresponds to "https://github.com/Azure/draft" is named "upstream". If yours is not (for example, if
 you've chosen to name it "origin" or something similar instead), be sure to adjust the listed
 snippets for your local environment accordingly. If you are not sure what your upstream remote is
 named, use a command like `git remote -v` to find out.
@@ -134,11 +134,11 @@ sufficient, listing the features in one of the four categories:
 
 ### Client
 
-* Implemented `draft up --set` [#139](https://github.com/BeardyC/draft/pull/139)
+* Implemented `draft up --set` [#139](https://github.com/Azure/draft/pull/139)
 
 ### Test Infrastructure
 
-* Added drone.yml for CI automation [#128](https://github.com/BeardyC/draft/pull/128)
+* Added drone.yml for CI automation [#128](https://github.com/Azure/draft/pull/128)
 ```
 
 For patch releases, do the same, but make note of the symptoms and who is affected.
@@ -151,7 +151,7 @@ being properly parsed as intended. Users are encouraged to upgrade for the best 
 
 ### Client
 
-* Fixed .dockerignore logic [#141](https://github.com/BeardyC/draft/pull/141)
+* Fixed .dockerignore logic [#141](https://github.com/Azure/draft/pull/141)
 ```
 
 Let's commit that now.
@@ -273,7 +273,7 @@ merge it into master.
 
 ## 9. Bump the Homebrew forumla
 
-And finally, we can update the [Homebrew formula version](https://github.com/BeardyC/homebrew-draft/blob/master/Formula/draft.rb#L4). Make sure to update the sha256 value with the value of
+And finally, we can update the [Homebrew formula version](https://github.com/Azure/homebrew-draft/blob/master/Formula/draft.rb#L4). Make sure to update the sha256 value with the value of
 
 ```shell
 $ curl https://azuredraft.blob.core.windows.net/draft/draft-$RELEASE_NAME-darwin-amd64.tar.gz.sha256

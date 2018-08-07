@@ -1,6 +1,6 @@
 package repo
 
-import "github.com/BeardyC/draft/pkg/version"
+import "github.com/Azure/draft/pkg/version"
 
 // Builtin contains metadata to the built-in packs. Used to install/uninstall a pack.
 type Builtin struct {
@@ -18,8 +18,8 @@ func Builtins() []*Builtin {
 	}
 	return []*Builtin{
 		{
-			Name:    "github.com/BeardyC/draft",
-			URL:     "https://github.com/BeardyC/draft",
+			Name:    "github.com/Azure/draft",
+			URL:     "https://github.com/Azure/draft",
 			Version: ver,
 		},
 	}

@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/BeardyC/draft/pkg/draft/draftpath"
+	"github.com/Azure/draft/pkg/draft/draftpath"
 )
 
 func TestPluginUpdateCmd(t *testing.T) {

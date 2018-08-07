@@ -21,9 +21,9 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/BeardyC/go-autorest/autorest"
-	"github.com/BeardyC/go-autorest/autorest/azure"
-	"github.com/BeardyC/go-autorest/autorest/validation"
+	"github.com/Azure/go-autorest/autorest"
+	"github.com/Azure/go-autorest/autorest/azure"
+	"github.com/Azure/go-autorest/autorest/validation"
 )
 
 // RegistriesClient is the client for the Registries methods of the Containerregistry service.

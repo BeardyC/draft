@@ -8,8 +8,8 @@ import (
 	"github.com/Masterminds/vcs"
 	"k8s.io/helm/pkg/plugin/cache"
 
-	"github.com/BeardyC/draft/pkg/draft/draftpath"
-	"github.com/BeardyC/draft/pkg/plugin"
+	"github.com/Azure/draft/pkg/draft/draftpath"
+	"github.com/Azure/draft/pkg/plugin"
 )
 
 //VCSInstaller installs plugins from a remote repository

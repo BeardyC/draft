@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/BeardyC/draft/pkg/builder"
+	"github.com/Azure/draft/pkg/builder"
 	"github.com/fatih/color"
 	"golang.org/x/net/context"
 )

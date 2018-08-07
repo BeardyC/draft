@@ -7,8 +7,8 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/BeardyC/draft/pkg/draft/draftpath"
-	"github.com/BeardyC/draft/pkg/plugin"
+	"github.com/Azure/draft/pkg/draft/draftpath"
+	"github.com/Azure/draft/pkg/plugin"
 )
 
 // runHook will execute a plugin hook.
