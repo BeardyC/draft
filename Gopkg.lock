@@ -8,20 +8,20 @@
   version = "v0.23.0"
 
 [[projects]]
-  name = "github.com/Azure/azure-pipeline-go"
+  name = "github.com/BeardyC/azure-pipeline-go"
   packages = ["pipeline"]
   revision = "098e490af5dc2a905cdc5b64cafda6887b29164b"
   version = "0.1.6"
 
 [[projects]]
   branch = "master"
-  name = "github.com/Azure/azure-storage-blob-go"
+  name = "github.com/BeardyC/azure-storage-blob-go"
   packages = ["2016-05-31/azblob"]
   revision = "70edea0000eaac722aa45821797ffdedba6b53b8"
 
 [[projects]]
   branch = "master"
-  name = "github.com/Azure/go-ansiterm"
+  name = "github.com/BeardyC/go-ansiterm"
   packages = [
     ".",
     "winterm"
@@ -29,7 +29,7 @@
   revision = "d6e3b3328b783f23731bc4d058875b0371ff8109"
 
 [[projects]]
-  name = "github.com/Azure/go-autorest"
+  name = "github.com/BeardyC/go-autorest"
   packages = [
     "autorest",
     "autorest/adal",

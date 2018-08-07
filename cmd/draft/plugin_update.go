@@ -9,9 +9,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/Azure/draft/pkg/draft/draftpath"
-	"github.com/Azure/draft/pkg/plugin"
-	"github.com/Azure/draft/pkg/plugin/installer"
+	"github.com/BeardyC/draft/pkg/draft/draftpath"
+	"github.com/BeardyC/draft/pkg/plugin"
+	"github.com/BeardyC/draft/pkg/plugin/installer"
 )
 
 type pluginUpdateCmd struct {

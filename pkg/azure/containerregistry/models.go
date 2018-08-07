@@ -21,10 +21,10 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/Azure/go-autorest/autorest"
-	"github.com/Azure/go-autorest/autorest/azure"
-	"github.com/Azure/go-autorest/autorest/date"
-	"github.com/Azure/go-autorest/autorest/to"
+	"github.com/BeardyC/go-autorest/autorest"
+	"github.com/BeardyC/go-autorest/autorest/azure"
+	"github.com/BeardyC/go-autorest/autorest/date"
+	"github.com/BeardyC/go-autorest/autorest/to"
 )
 
 // BaseImageDependencyType enumerates the values for base image dependency type.

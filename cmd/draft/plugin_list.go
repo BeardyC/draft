@@ -7,7 +7,7 @@ import (
 	"github.com/gosuri/uitable"
 	"github.com/spf13/cobra"
 
-	"github.com/Azure/draft/pkg/draft/draftpath"
+	"github.com/BeardyC/draft/pkg/draft/draftpath"
 )
 
 type pluginListCmd struct {

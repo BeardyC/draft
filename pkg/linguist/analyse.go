@@ -5,8 +5,8 @@ import (
 	"log"
 	"math"
 
-	"github.com/Azure/draft/pkg/linguist/data"
-	"github.com/Azure/draft/pkg/linguist/tokenizer"
+	"github.com/BeardyC/draft/pkg/linguist/data"
+	"github.com/BeardyC/draft/pkg/linguist/tokenizer"
 	"github.com/jbrukh/bayesian"
 )
 

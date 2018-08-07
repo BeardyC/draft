@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/Azure/draft/pkg/draft/draftpath"
-	"github.com/Azure/draft/pkg/plugin/installer"
+	"github.com/BeardyC/draft/pkg/draft/draftpath"
+	"github.com/BeardyC/draft/pkg/plugin/installer"
 )
 
 var _ installer.Installer = new(LocalInstaller)

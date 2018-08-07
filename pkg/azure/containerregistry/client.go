@@ -21,7 +21,7 @@ package containerregistry
 // Changes may cause incorrect behavior and will be lost if the code is regenerated.
 
 import (
-	"github.com/Azure/go-autorest/autorest"
+	"github.com/BeardyC/go-autorest/autorest"
 )
 
 const (

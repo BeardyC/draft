@@ -1,7 +1,7 @@
 package pack
 
 import (
-	"github.com/Azure/draft/pkg/draft/pack/repo"
+	"github.com/BeardyC/draft/pkg/draft/pack/repo"
 )
 
 // List returns a list of all pack names found in the specified repository or error.

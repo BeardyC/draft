@@ -21,9 +21,9 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/Azure/go-autorest/autorest"
-	"github.com/Azure/go-autorest/autorest/azure"
-	"github.com/Azure/go-autorest/autorest/validation"
+	"github.com/BeardyC/go-autorest/autorest"
+	"github.com/BeardyC/go-autorest/autorest/azure"
+	"github.com/BeardyC/go-autorest/autorest/validation"
 )
 
 // BuildsClient is the client for the Builds methods of the Containerregistry service.

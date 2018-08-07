@@ -26,7 +26,7 @@ $ helm init
 
 #### Standalone Binary
 
-Download the latest release of Draft from the [latest releases page](https://github.com/Azure/draft/releases/latest), unpack the binary and place it somewhere on your $PATH.
+Download the latest release of Draft from the [latest releases page](https://github.com/BeardyC/draft/releases/latest), unpack the binary and place it somewhere on your $PATH.
 
 For example, for the v0.14.1 release, this can be done via
 

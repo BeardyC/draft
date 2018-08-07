@@ -8,9 +8,9 @@ import (
 	"github.com/BurntSushi/toml"
 	"github.com/spf13/cobra"
 
-	"github.com/Azure/draft/pkg/draft/draftpath"
-	"github.com/Azure/draft/pkg/draft/pack/repo"
-	"github.com/Azure/draft/pkg/plugin"
+	"github.com/BeardyC/draft/pkg/draft/draftpath"
+	"github.com/BeardyC/draft/pkg/draft/pack/repo"
+	"github.com/BeardyC/draft/pkg/plugin"
 )
 
 const (

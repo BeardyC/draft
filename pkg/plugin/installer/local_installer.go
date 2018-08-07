@@ -3,8 +3,8 @@ package installer
 import (
 	"path/filepath"
 
-	"github.com/Azure/draft/pkg/draft/draftpath"
-	"github.com/Azure/draft/pkg/plugin"
+	"github.com/BeardyC/draft/pkg/draft/draftpath"
+	"github.com/BeardyC/draft/pkg/plugin"
 )
 
 // LocalInstaller installs plugins from the filesystem

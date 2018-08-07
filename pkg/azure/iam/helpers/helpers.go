@@ -13,7 +13,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/Azure/go-autorest/autorest/utils"
+	"github.com/BeardyC/go-autorest/autorest/utils"
 )
 
 // PrintAndLog writes to stdout and to a logger.

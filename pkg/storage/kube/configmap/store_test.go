@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Azure/draft/pkg/storage"
+	"github.com/BeardyC/draft/pkg/storage"
 )
 
 func TestStoreDeleteBuilds(t *testing.T) {

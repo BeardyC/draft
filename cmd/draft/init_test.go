@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/Azure/draft/pkg/draft/draftpath"
+	"github.com/BeardyC/draft/pkg/draft/draftpath"
 )
 
 func TestParseConfig(t *testing.T) {

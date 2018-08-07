@@ -11,9 +11,9 @@ import (
 	"k8s.io/client-go/kubernetes"
 	restclient "k8s.io/client-go/rest"
 
-	"github.com/Azure/draft/pkg/draft/manifest"
-	"github.com/Azure/draft/pkg/draft/tunnel"
-	"github.com/Azure/draft/pkg/kube/podutil"
+	"github.com/BeardyC/draft/pkg/draft/manifest"
+	"github.com/BeardyC/draft/pkg/draft/tunnel"
+	"github.com/BeardyC/draft/pkg/kube/podutil"
 )
 
 const (

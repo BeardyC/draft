@@ -9,11 +9,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/Azure/go-autorest/autorest"
-	"github.com/Azure/go-autorest/autorest/adal"
-	"github.com/Azure/go-autorest/autorest/azure/cli"
+	"github.com/BeardyC/go-autorest/autorest"
+	"github.com/BeardyC/go-autorest/autorest/adal"
+	"github.com/BeardyC/go-autorest/autorest/azure/cli"
 
-	"github.com/Azure/draft/pkg/azure/iam/helpers"
+	"github.com/BeardyC/draft/pkg/azure/iam/helpers"
 )
 
 // OAuthGrantType specifies which grant type to use.

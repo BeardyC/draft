@@ -3,7 +3,7 @@ package repo
 import (
 	"testing"
 
-	"github.com/Azure/draft/pkg/version"
+	"github.com/BeardyC/draft/pkg/version"
 )
 
 const stableRelease = "v1.0.0"
@@ -16,12 +16,12 @@ func TestBuiltins(t *testing.T) {
 		t.Errorf("expected 1 builtin, got %d", len(builtins))
 	}
 
-	if builtins[0].URL != "https://github.com/Azure/draft" {
-		t.Error("expected https://github.com/Azure/draft to be in the builtin list")
+	if builtins[0].URL != "https://github.com/BeardyC/draft" {
+		t.Error("expected https://github.com/BeardyC/draft to be in the builtin list")
 	}
 
-	if builtins[0].Name != "github.com/Azure/draft" {
-		t.Error("expected github.com/Azure/draft to be in the builtin list")
+	if builtins[0].Name != "github.com/BeardyC/draft" {
+		t.Error("expected github.com/BeardyC/draft to be in the builtin list")
 	}
 
 	if builtins[0].Version != "" {

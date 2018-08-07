@@ -1,10 +1,10 @@
-package installer // import "github.com/Azure/draft/pkg/plugin/installer"
+package installer // import "github.com/BeardyC/draft/pkg/plugin/installer"
 
 import (
 	"path/filepath"
 
-	"github.com/Azure/draft/pkg/draft/draftpath"
-	"github.com/Azure/draft/pkg/osutil"
+	"github.com/BeardyC/draft/pkg/draft/draftpath"
+	"github.com/BeardyC/draft/pkg/osutil"
 )
 
 type base struct {

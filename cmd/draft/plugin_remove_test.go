@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Azure/draft/pkg/draft/draftpath"
-	"github.com/Azure/draft/pkg/testing/helpers"
+	"github.com/BeardyC/draft/pkg/draft/draftpath"
+	"github.com/BeardyC/draft/pkg/testing/helpers"
 )
 
 func TestPluginRemoveCmd(t *testing.T) {

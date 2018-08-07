@@ -30,7 +30,7 @@ Docker can be installed following the appropriate path in the [Install Docker](h
 
 ## Install Draft
 
-Afterwards, fetch [the latest release of Draft](https://github.com/Azure/draft/releases). 
+Afterwards, fetch [the latest release of Draft](https://github.com/BeardyC/draft/releases). 
 
 Installing Draft via Homebrew can be done using
 

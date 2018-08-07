@@ -7,8 +7,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Azure/go-autorest/autorest"
-	azurecli "github.com/Azure/go-autorest/autorest/azure/cli"
+	"github.com/BeardyC/go-autorest/autorest"
+	azurecli "github.com/BeardyC/go-autorest/autorest/azure/cli"
 	"github.com/docker/cli/cli/command"
 	cliconfig "github.com/docker/cli/cli/config"
 	dockerdebug "github.com/docker/cli/cli/debug"
@@ -20,16 +20,16 @@ import (
 	"golang.org/x/net/context"
 	"k8s.io/client-go/rest"
 
-	"github.com/Azure/draft/pkg/azure/containerregistry"
-	"github.com/Azure/draft/pkg/azure/iam"
-	"github.com/Azure/draft/pkg/builder"
-	azurecontainerbuilder "github.com/Azure/draft/pkg/builder/azure"
-	dockercontainerbuilder "github.com/Azure/draft/pkg/builder/docker"
-	"github.com/Azure/draft/pkg/cmdline"
-	"github.com/Azure/draft/pkg/draft/draftpath"
-	"github.com/Azure/draft/pkg/local"
-	"github.com/Azure/draft/pkg/storage/kube/configmap"
-	"github.com/Azure/draft/pkg/tasks"
+	"github.com/BeardyC/draft/pkg/azure/containerregistry"
+	"github.com/BeardyC/draft/pkg/azure/iam"
+	"github.com/BeardyC/draft/pkg/builder"
+	azurecontainerbuilder "github.com/BeardyC/draft/pkg/builder/azure"
+	dockercontainerbuilder "github.com/BeardyC/draft/pkg/builder/docker"
+	"github.com/BeardyC/draft/pkg/cmdline"
+	"github.com/BeardyC/draft/pkg/draft/draftpath"
+	"github.com/BeardyC/draft/pkg/local"
+	"github.com/BeardyC/draft/pkg/storage/kube/configmap"
+	"github.com/BeardyC/draft/pkg/tasks"
 )
 
 const upDesc = `
