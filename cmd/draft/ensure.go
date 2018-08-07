@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/Azure/draft/pkg/osutil"
+	"github.com/BeardyC/draft/pkg/osutil"
 
-	"github.com/Azure/draft/pkg/draft/pack/repo"
-	"github.com/Azure/draft/pkg/plugin"
+	"github.com/BeardyC/draft/pkg/draft/pack/repo"
+	"github.com/BeardyC/draft/pkg/plugin"
 )
 
 // ensureDirectories checks to see if $DRAFT_HOME exists
